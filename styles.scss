@@ -1,0 +1,84 @@
+/*-- scss:defaults --*/
+
+// 글꼴: 로마자는 Source Sans 3, 한글은 Noto Sans KR 로 떨어집니다 (둘 다 _quarto.yml 에서 Google Fonts 로 불러옴).
+// 브라우저는 목록 앞쪽 글꼴에 없는 글자(한글)만 뒤쪽 글꼴로 그리므로, 영문·한글이 섞인 페이지도 자연스럽습니다.
+$font-family-sans-serif: "Source Sans 3", "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic",
+  "Noto Sans CJK KR", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$font-family-serif: "Source Serif 4", "Noto Serif KR", "Apple Myungjo", "Batang", "Noto Serif CJK KR", Georgia, serif;
+
+$font-size-base: 1.05rem;
+$line-height-base: 1.65;
+$headings-font-weight: 700;
+
+/*-- scss:rules --*/
+
+// 한글 줄바꿈: 단어 중간에서 끊기지 않게
+body {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+// litera 테마는 본문 문단(p)만 세리프로 바꾸는데, 본문을 산세리프로 통일합니다.
+// 본문을 세리프(Source Serif 4 / Noto Serif KR)로 바꾸고 싶으면 아래 p 규칙의 sans-serif 를 serif 로 고치세요.
+p {
+  font-family: $font-family-sans-serif;
+}
+
+blockquote {
+  font-family: $font-family-serif;
+  font-style: normal;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+}
+
+// 소개(about) 페이지 본문 폭
+.quarto-about-trestles .about-contents {
+  font-size: 1.04rem;
+}
+
+// 저술 목록 (publications.qmd + pubs.ejs)
+.pub-year {
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.15rem;
+  border-bottom: 1px solid var(--bs-border-color);
+  padding-bottom: 0.3rem;
+}
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+
+  li {
+    margin-bottom: 0.7rem;
+    padding-left: 0;
+  }
+}
+
+.pub-kind {
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: 600;
+  padding: 0.1em 0.5em;
+  margin-right: 0.4em;
+  border-radius: 0.3em;
+  background: color-mix(in srgb, var(--bs-primary) 12%, transparent);
+  color: var(--bs-primary);
+  vertical-align: 0.1em;
+}
+
+.pub-title {
+  font-weight: 500;
+}
+
+.pub-venue {
+  color: var(--bs-secondary-color);
+}
+
+// 글 목록 간격
+.quarto-listing-default .list-item {
+  margin-bottom: 1.2rem;
+}

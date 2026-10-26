@@ -1,0 +1,39 @@
+---
+title: "Chulki Hong"
+subtitle: "Research Fellow, KINU"
+# 사진을 넣으려면 이 폴더에 profile.jpg 를 두고 아래 줄의 주석을 푸세요.
+# image: profile.jpg
+toc: false
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 14em
+  links:
+    # 이메일을 공개하려면 아래 세 줄의 주석을 풀고 주소를 넣으세요.
+    # - icon: envelope
+    #   text: Email
+    #   href: "mailto:your@email.address"
+    - icon: building
+      text: KINU
+      href: https://www.kinu.or.kr
+    - icon: github
+      text: GitHub
+      href: https://github.com/hongchulki
+    - icon: file-earmark-text
+      text: CV
+      href: cv.html
+---
+
+I am a Research Fellow in the Human Rights Research Division at the Korea Institute for National Unification (KINU), a government-affiliated research institute in Seoul. My research focuses on unification policy, Cold War intellectual history, and the global conceptual history of liberal democracy. I also teach a graduate seminar on nineteenth-century European political thought.
+
+## Research interests
+
+- Unification policy
+- Cold War intellectual history
+- Global conceptual history (liberal democracy)
+
+## News
+
+<!-- 이 목록은 자유롭게 고쳐 쓰세요. 발표·출간·강연 소식을 최신순으로 적어 두면 좋습니다. -->
+
+- October 2026 — This website went live.

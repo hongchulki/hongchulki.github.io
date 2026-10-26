@@ -1,0 +1,35 @@
+# 저술 목록 — 아래 항목은 형식을 보여 주기 위한 예시입니다. 실제 목록으로 바꿔 주세요.
+# kind 는 자유 문자열입니다 (Book / Article / Report / Translation / Chapter / Review …).
+# 한글 논문은 제목·출처를 한글 그대로 적어도 되고, 영문 번역 제목을 note 에 덧붙여도 됩니다.
+# url, note 는 없으면 줄을 지워도 됩니다.
+
+- year: 2026
+  kind: Article
+  title: "(Example) Journal Article Title in English"
+  venue: "Journal Name, Vol. 00, No. 0, pp. 00–00"
+  url: ""
+
+- year: 2025
+  kind: Report
+  title: "(Example) Research Report Title"
+  venue: "Korea Institute for National Unification"
+  url: ""
+
+- year: 2025
+  kind: Article
+  title: "(예시) 한국어 학술지 논문 제목"
+  venue: "학술지명, 00권 0호, 00–00쪽"
+  note: "in Korean"
+  url: ""
+
+- year: 2024
+  kind: Book
+  title: "(예시) 단행본 제목"
+  venue: "출판사"
+  note: "in Korean, co-authored"
+
+- year: 2023
+  kind: Translation
+  title: "(예시) 번역서 제목"
+  venue: "출판사"
+  note: "Korean translation"

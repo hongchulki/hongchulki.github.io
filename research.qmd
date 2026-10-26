@@ -1,0 +1,25 @@
+---
+title: "Research"
+toc: true
+---
+
+<!--
+아래 문단은 홈페이지 뼈대를 세우기 위한 예시 문장입니다.
+실제 연구 내용에 맞게 고쳐 쓰고, 진행 중인 과제나 대표 논문을 각 절 아래에 덧붙이면 됩니다.
+-->
+
+## Unification policy
+
+Korean unification policy, with particular attention to the German experience of reunification and the political and social integration that followed it.
+
+## Cold War intellectual history
+
+The intellectual history of the Cold War era: how political ideas were formed, circulated, and contested under the conditions of division.
+
+## Global conceptual history (liberal democracy)
+
+The global conceptual history of "liberal democracy" — how the concept was formed, translated, and put to use in different political contexts, including Korea.
+
+## Teaching
+
+- Nineteenth-century European political thought (graduate seminar)

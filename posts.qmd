@@ -1,0 +1,20 @@
+---
+title: "Writing"
+toc: false
+page-layout: full
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  fields: [date, title, description, categories]
+---
+
+<!--
+새 글을 쓰려면 posts/ 안에 폴더를 하나 만들고 그 안에 index.qmd 를 두면 됩니다.
+예: posts/2026-11-01-some-title/index.qmd
+폴더 이름은 URL 이 되므로 영문·숫자·하이픈을 권합니다 (한글도 동작은 함).
+한글 글은 머리말에 lang: ko 를 한 줄 넣으면 그 글만 한국어 UI(날짜 표기 등)로 바뀝니다.
+-->

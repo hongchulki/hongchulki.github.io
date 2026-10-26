@@ -1,0 +1,14 @@
+---
+title: "Opening this site"
+date: 2026-10-26
+categories: [Notes]
+description: "What this website is for and how it is organized."
+---
+
+This website gathers my research interests, publications, and CV in one place, with an occasional short piece of writing.
+
+This post exists to show what a post looks like. To add one, create a folder inside `posts/` with an `index.qmd` file in it. Footnotes[^1], quotations, mathematics, figures, and tables all work, and if you attach a bibliography file (`.bib`) the citations and reference list are generated automatically.
+
+> Quotations are set like this.
+
+[^1]: Footnotes are set like this.

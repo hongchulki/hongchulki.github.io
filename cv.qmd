@@ -1,0 +1,38 @@
+---
+title: "CV"
+toc: true
+---
+
+<!--
+아래는 틀입니다. 내용을 채우고 필요 없는 절은 지우세요.
+PDF 이력서가 있으면 이 폴더에 cv.pdf 로 저장한 뒤 아래 한 줄의 주석을 풀면 내려받기 단추가 생깁니다.
+-->
+
+<!-- [Download as PDF](cv.pdf){.btn .btn-outline-primary .btn-sm} -->
+
+## Current position
+
+- Research Fellow, Human Rights Research Division, Korea Institute for National Unification (KINU)
+
+## Education
+
+- Ph.D., Field, University (Year)
+- M.A., Field, University (Year)
+- B.A., Field, University (Year)
+
+## Appointments
+
+- Research Fellow, Korea Institute for National Unification (Year – present)
+- Position, Institution (Year – Year)
+
+## Teaching
+
+- Nineteenth-century European political thought (graduate seminar, University, Year – present)
+
+## Professional service
+
+- Association or committee, role (Year – )
+
+## Awards and grants
+
+- Award or grant, institution (Year)

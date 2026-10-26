@@ -1,0 +1,30 @@
+---
+title: "Publications"
+# draft: true 인 동안 이 페이지는 배포 사이트에 포함되지 않습니다 (로컬 quarto preview 에서는 보임).
+# publications.yml 을 채운 뒤 아래 줄을 지우고 _quarto.yml 의 Publications 메뉴 주석을 푸세요.
+draft: true
+toc: false
+listing:
+  id: pubs
+  contents: publications.yml
+  template: pubs.ejs
+  sort: "year desc"
+  sort-ui: false
+  filter-ui: false
+  page-size: 200
+---
+
+<!--
+저술 목록은 publications.yml 에서 관리합니다. 이 페이지 자체는 손댈 필요가 없습니다.
+항목 하나를 추가하려면 publications.yml 에 아래 형식으로 한 덩어리를 더하면 됩니다.
+
+- year: 2026
+  kind: Article        # Book / Article / Report / Translation / Chapter … 자유롭게
+  title: "제목 (한글 제목도 그대로)"
+  venue: "학술지명, 권(호), 쪽수"   # 또는 출판사
+  url: "https://..."   # 없으면 지워도 됨
+  note: "co-authored"  # 없으면 지워도 됨
+-->
+
+::: {#pubs}
+:::

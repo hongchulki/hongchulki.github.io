@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: _site
+
+# ------------------------------------------------------------
+# 사이트 기본 설정
+# ------------------------------------------------------------
+website:
+  title: "Chulki Hong"
+  site-url: "https://hongchulki.github.io"
+  description: "Chulki Hong — Research Fellow at the Korea Institute for National Unification (KINU). Unification policy, Cold War intellectual history, global conceptual history of liberal democracy."
+  open-graph: true
+  # draft: true 로 표시한 페이지(현재 publications.qmd)는 배포본에서 완전히 뺍니다.
+  draft-mode: gone
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      # 저술 목록을 채운 뒤 아래 두 줄의 주석을 풀고, publications.qmd 머리말의 draft: true 를 지우세요.
+      # - href: publications.qmd
+      #   text: Publications
+      - href: posts.qmd
+        text: Writing
+      - href: cv.qmd
+        text: CV
+      - href: ko.qmd
+        text: 한국어
+    right:
+      - icon: github
+        href: https://github.com/hongchulki
+        aria-label: GitHub
+      # 이메일을 공개하려면 아래 세 줄의 주석을 풀고 주소를 넣으세요.
+      # - icon: envelope
+      #   href: "mailto:your@email.address"
+      #   aria-label: Email
+  search:
+    location: navbar
+    type: overlay
+  page-footer:
+    left: "© 2026 Chulki Hong"
+    right: "Built with [Quarto](https://quarto.org)"
+
+lang: en
+
+# 코드 셀을 쓰는 글이 생겨도 GitHub Actions 쪽에 Python/R 을 깔 필요가 없도록
+# 실행 결과를 로컬에서 얼려(freeze) 두는 설정. 순수 마크다운만 쓰면 영향 없음.
+execute:
+  freeze: auto
+
+format:
+  html:
+    theme:
+      light: [litera, styles.scss]
+      dark: [darkly, styles.scss]
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@400;600&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@400;600&display=swap" rel="stylesheet">

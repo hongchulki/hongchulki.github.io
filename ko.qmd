@@ -1,0 +1,40 @@
+---
+title: "홍철기"
+subtitle: "통일연구원 부연구위원"
+# 사진을 넣으려면 이 폴더에 profile.jpg 를 두고 아래 줄의 주석을 푸세요.
+# image: profile.jpg
+toc: false
+lang: ko
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 14em
+  links:
+    # 이메일을 공개하려면 아래 세 줄의 주석을 풀고 주소를 넣으세요.
+    # - icon: envelope
+    #   text: 이메일
+    #   href: "mailto:your@email.address"
+    - icon: building
+      text: 통일연구원
+      href: https://www.kinu.or.kr
+    - icon: github
+      text: GitHub
+      href: https://github.com/hongchulki
+    - icon: file-earmark-text
+      text: 이력(CV)
+      href: cv.html
+---
+
+통일연구원(KINU) 인권연구실에서 부연구위원으로 일하고 있습니다. 통일 정책, 냉전기 지성사, 그리고 자유민주주의의 글로벌 개념사를 연구합니다. 대학원에서 19세기 유럽 정치사상 세미나를 가르치고 있습니다.
+
+## 연구 관심
+
+- 통일 정책
+- 냉전기 지성사
+- 글로벌 개념사 (자유민주주의)
+
+## 최근 소식
+
+<!-- 이 목록은 자유롭게 고쳐 쓰세요. 발표·출간·강연 소식을 최신순으로 적어 두면 좋습니다. -->
+
+- 2026.10 — 홈페이지를 열었습니다.

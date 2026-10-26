@@ -1,0 +1,17 @@
+```{=html}
+<%
+// publications.yml 의 항목을 연도별로 묶어서 출력합니다.
+const years = [...new Set(items.map((i) => String(i.year)))].sort((a, b) => b.localeCompare(a));
+%>
+<% for (const year of years) { %>
+<h3 class="pub-year"><%= year %></h3>
+<ul class="pub-list">
+<% for (const item of items.filter((i) => String(i.year) === year)) { %>
+  <li>
+    <% if (item.kind) { %><span class="pub-kind"><%= item.kind %></span><% } %>
+    <span class="pub-title"><% if (item.url) { %><a href="<%= item.url %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></span><% if (item.venue) { %>, <span class="pub-venue"><%= item.venue %></span><% } %><% if (item.note) { %> <span class="pub-venue">(<%= item.note %>)</span><% } %>
+  </li>
+<% } %>
+</ul>
+<% } %>
+```

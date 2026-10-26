@@ -1,0 +1,10 @@
+# Quarto 빌드 산출물 (GitHub Actions 가 다시 만들므로 올리지 않음)
+/_site/
+/.quarto/
+
+# 운영체제·편집기 잡동사니
+.DS_Store
+Thumbs.db
+*.swp
+
+**/*.quarto_ipynb
